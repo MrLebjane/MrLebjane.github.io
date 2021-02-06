@@ -110,6 +110,10 @@ body
 {
 	height: 400px;
 }
+.skills-bar h4
+{
+	text-align: center;
+}
 .skills-bar p
 {
 	margin-bottom: 6px ;
