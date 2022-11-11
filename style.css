@@ -130,7 +130,15 @@ body
 	border-radius: 16px;
 	background: #000 !important;
 }
+/* .img-with-text {
+    text-align: justify;
+    width: 30%;
+}
 
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+} */
 /*------RESUME------*/
 
 .resume
