@@ -201,6 +201,61 @@ body
 	z-index: 1;
 }
 
+/*------PROJECTS------*/
+
+.projects
+{
+	padding-top: 50px;
+	padding-bottom: 30px;
+}
+#accordianId .hero {
+    background: url("./bg.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    color: aliceblue;
+    text-shadow: #000 2px 2px 2px;
+}
+
+#accordianId .card {
+
+    background:linear-gradient(90deg, rgba(51,51,196,0.0287289915966386) 0%, rgb(0, 140, 255) 100%);
+    border: 1px solid #000;
+
+}
+
+#accordianId .card h5 a {
+    display: block;
+}
+
+#accordianId .tools i {
+    font-size: 50px;
+}
+
+#accordianId .nav-item {
+    display: inline!important;
+    color: #fff;
+}
+
+#accordianId .nav-link {
+    display: inline!important;
+    color: #fff!important;
+}
+
+#accordianId a i {
+    display: inline;
+}
+
+#accordianId .links a {
+    color: #fff !important;
+}
+
+#accordianId * {
+
+    border-radius: 0px !important;
+
+}
+
 /*------SERVICES-------*/
 .services
 {
