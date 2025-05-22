@@ -381,7 +381,7 @@ body
 
 .img-with-text {
     display: flex;
-    flex-wrap: nowrap;    
+    flex-wrap: wrap;    
     justify-content:flex-start;
     align-items:start; 
     /* gap: 20px;
