@@ -378,4 +378,13 @@ body
 	width: 60px;
 	transition: 1s;
 }
-	
+
+.img-with-text {
+    display: flex;
+    flex-wrap: nowrap;    
+    justify-content:flex-start;
+    align-items:start; 
+    /* gap: 20px;
+    padding: 20px; */
+  }
+   
