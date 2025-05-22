@@ -381,8 +381,8 @@ body
 
 .img-with-text {
     display: flex;
-    flex-wrap: wrap;    
-    justify-content:flex-start;
+    flex-wrap: nowrap;    
+    justify-content:start;
     align-items:start; 
     /* gap: 20px;
     padding: 20px; */
