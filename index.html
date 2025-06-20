@@ -25,7 +25,9 @@
 <div class="user-box">
 <img src="images/Profile5.jpg" height="30%" width="30%">
 <h1>Kamohelo Lebjane</h1>
-<p>BSc in Computer Science and Informatics(University Of Johannesburg)</p>
+<div style="max-width: 500px; margin: auto; text-align: center;">
+  <p>Data Science intern | BSc in Computer Science and Informatics(University Of Johannesburg)</p>
+</div>
 </div>
 <!--</div>
 <div class="scroll-btn">
@@ -267,12 +269,12 @@
   <div class="container">
   <h1 class="text-center">My Projects</h1>
   <br><br>
-  <div id="accordianId" role="tablist" aria-multiselectable="true" class="mb-4">
+    <div id="accordianId" role="tablist" aria-multiselectable="true" class="mb-4">
     <div class="card my-2">
         <div class="card-header" role="tab" id="section0HeaderId">
             <h5 class="mb-0">
                 <a data-toggle="collapse" data-parent="#accordianId" href="#section0ContentId" aria-expanded="true" aria-controls="section0ContentId">
-          Ticket Hub
+          A comparative analysis of machine learning algorithms for waste classifcation(2025)
         </a>
             </h5>
         </div>
@@ -280,32 +282,36 @@
             <div class="card-body">
                 <div class="row">
 
-                    <div class="col-md-6">
+                    <div class="col-md-6" >
+                      <div class="p-2 alert alert-primary" style="height: 200px;overflow: auto;border: 1px solid #ccc;">
                         <p class="p-2 alert alert-primary">
-                          <b>TicketHub</b> was an e-commerce platform designed for purchasing event tickets. 
-                          Users could browse and select tickets for various events, 
-                          providing a seamless online ticket-buying experience. 
-                          The platform focused on simplifying the process of discovering and purchasing tickets for users, 
-                          ensuring an efficient and user-friendly interface.</p>
+                        In this practical study, I replicated the procedures of a published research paper on automated 
+                        waste classification. The objective was to evaluate how well machine learning algorithms—SVM, 
+                        Decision Tree, and KNN—could classify household waste images into organic or recyclable 
+                        categories using features extracted from a pretrained InceptionV3 model. I observed that <b>the 
+                          performance of all three models decreased gradually as the number of features was reduced 
+                          using Chi-square feature selection</b>. However, <b>SVM consistently outperformed both 
+                          Decision Tree and KNN at every feature reduction level</b>. <b>SVM with the 
+                          full set of extracted features achieved the highest overall accuracy</b>, consistent with the 
+                          original study’s findings.
+                        </p>
                     </div>
-
+                   </div>
                     <div class="col-md-4">
                         <p>Technologies:</p>
                         <ul>
-                            <li>ASP.NET</li>
-                            <li>C#</li>
-                            <li>SQL Server LocalDB</li>
-                            <li>JavaScript</li>
-                            <li>Bootsrap</li>
-                            <li>CSS</li>
+                            <li>Python</li>
+                            <li>Tensorflow</li>
+                            <li>Scikit-learn</li>
+                            <li>Matplotlib</li>
+                            <li>pandas</li>
+                            <li>jupyter Notebooks</li>
                         </ul>
                     </div>
 
                     <div class="col-lg-2 links">
-                      <a class="btn btn-primary" href="https://github.com/MrLebjane/Ticket-Hub" target="_BLANK"><i class="fab fa-github"></i> See Code</a>
-                      <br>
-                      <a class="btn btn-primary my-2" href="https://youtu.be/Y791QWjc8a8" target="_BLANK"><i class="fab fa-youtube"></i> See Video</a>
-                  </div>
+                      <a class="btn btn-primary" href="https://www.kaggle.com/code/lebjane/waste-classifcation" target="_BLANK"><i class="fab fa-github"></i> See Code</a>
+                    </div>
 
                 </div>
             </div>
@@ -318,7 +324,7 @@
         <div class="card-header" role="tab" id="section0HeaderId">
             <h5 class="mb-0">
                 <a data-toggle="collapse" data-parent="#accordianId" href="#section1ContentId" aria-expanded="true" aria-controls="section1ContentId">
-          CM Electric
+          CM Electric(2023)
         </a>
             </h5>
         </div>
@@ -373,6 +379,52 @@
     </div>
 
   </div>
+    <div id="accordianId" role="tablist" aria-multiselectable="true" class="mb-4">
+    <div class="card my-2">
+        <div class="card-header" role="tab" id="section0HeaderId">
+            <h5 class="mb-0">
+                <a data-toggle="collapse" data-parent="#accordianId" href="#section0ContentId" aria-expanded="true" aria-controls="section0ContentId">
+          Ticket Hub(2022)
+        </a>
+            </h5>
+        </div>
+        <div id="section0ContentId"  role="tabpanel" aria-labelledby="section0HeaderId">
+            <div class="card-body">
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <p class="p-2 alert alert-primary">
+                          <b>TicketHub</b> was an e-commerce platform designed for purchasing event tickets. 
+                          Users could browse and select tickets for various events, 
+                          providing a seamless online ticket-buying experience. 
+                          The platform focused on simplifying the process of discovering and purchasing tickets for users, 
+                          ensuring an efficient and user-friendly interface.</p>
+                    </div>
+
+                    <div class="col-md-4">
+                        <p>Technologies:</p>
+                        <ul>
+                            <li>ASP.NET</li>
+                            <li>C#</li>
+                            <li>SQL Server LocalDB</li>
+                            <li>JavaScript</li>
+                            <li>Bootsrap</li>
+                            <li>CSS</li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 links">
+                      <a class="btn btn-primary" href="https://github.com/MrLebjane/Ticket-Hub" target="_BLANK"><i class="fab fa-github"></i> See Code</a>
+                      <br>
+                      <a class="btn btn-primary my-2" href="https://youtu.be/Y791QWjc8a8" target="_BLANK"><i class="fab fa-youtube"></i> See Video</a>
+                  </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
+
   </div>
 </div>
 
@@ -440,7 +492,7 @@
 </div>
 <br>
 <br>
-<a href="https://drive.google.com/file/d/1BWN7Na73E02ARuMfLHd0AjmNflfxaJp9/view?usp=sharing" target="_blank">
+<a href="https://drive.google.com/file/d/1fVGp4esbOLFWdh_fJblvPpfyq7TZlwga/view?usp=sharing" target="_blank">
   <button type="button" class="btn btn-primary"><i class="fa fa-download"></i>Curriculm Vitae</button>
 </a>
 
